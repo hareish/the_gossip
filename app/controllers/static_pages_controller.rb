@@ -6,6 +6,7 @@ class StaticPagesController < ApplicationController
   def contact  	
   end
 
-  def welcome  	
+   def welcome
+  	@first_name = params[:id]
   end
 end
